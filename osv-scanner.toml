@@ -1,0 +1,3 @@
+[[IgnoredVulns]]
+id = "GHSA-g3hv-75wg-m249"
+reason = "minimatch (3.1.5 and 10.2.6) is only a transitive dev dependency of eslint and @typescript-eslint; it is not part of the runtime dependencies or the bundled dist/index.js"
